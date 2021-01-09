@@ -1,0 +1,248 @@
+   *{
+    font-family: arial;
+    }
+    
+body{
+    background-color: rgb(226, 226, 226);
+}
+section{
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient( 90deg, #ffffff, #cfcfcf); 
+    position: relative;
+    border-radius: 10px;
+}
+nav{
+	height:60px;
+    padding:0px 80px;
+    border-radius: 10px;
+}
+
+    
+nav img{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+ul li {
+    float: right;
+    display:flex;
+    list-style: none;
+}
+
+ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(48, 48, 48)  
+}
+
+ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
+.name-sec h1{
+    color: #6d6d6d;
+    font-size: 22px;
+}
+.name-sec h2{
+     color: #1a1a1a;
+     font-size: 60px;
+     line-height: 30px;
+}
+.name-sec p{
+    color: #403e3e;
+    font-size: 20px;
+    line-height: 30px;
+}
+.name-sec{
+    line-height: 0px;
+    margin: 45px 0 25px;
+    position: absolute;
+    left: 13%;
+    top: 35%;
+}
+.name-sec button{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    margin: 0 10px;
+}
+.hire{
+    border: 2px solid #373636;
+    color: #373636;
+}
+.cv{
+    background-color: #0b0b0b;
+    color: #ffffff;
+    border: none;
+}
+.name-sec button:hover{
+    transform: scale(0.95);
+}
+.name-sec button:active{
+    transform: scale(1.0);
+}
+.me{
+    width: 800px;
+    overflow: hidden;
+    float: right;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+}
+
+.about{
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 12px rgba( 0, 0 ,0, 0.2);
+    display: flex;
+    margin: -2% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-text{
+    width: 70%;
+}
+.about-text h1{
+    color: #403e3e;
+    font-size: 25px;
+    line-height: 0;
+}
+.about-text p{
+    color: #403e3e;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-text button{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    background-color: #0b0b0b;
+    color: #ffffff;
+    border: none;
+}
+.about-text button:hover{
+    transform: scale(0.95);
+}
+.about-text button:active{
+    transform: scale(1.0);
+}
+
+.service{
+    width: 100%;
+    height: 52vh;
+    background-image: linear-gradient( -90deg, #ffffff, #cfcfcf); 
+    position: relative;
+    border-radius: 10px;
+}
+.service h1{
+    font-size: 40px;
+    color: #403e3e;
+    line-height: 100px;
+    text-align: center;
+}
+
+.box div{
+    width: 300px;
+    height: 320px;
+    background-color: #403e3e;
+    box-shadow: 2px 2px 12px rgba( 0, 0 ,0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.box h1{
+    color: white;
+    font-size: 23px;
+    line-height: 0;
+}
+.box p{
+    color: #8f8f8f;
+    text-align: center;
+    margin: 0 0 20px 0;
+    width: 230px;
+    font-size: 14px;
+}
+.box button{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    background-color: #ffffff;
+    color: #161616;
+    border: none;
+}
+.box button:hover{
+    transform: scale(0.95);
+}
+.box button:active{
+    transform: scale(1); 
+}
+
+footer h2{
+    text-align: center;
+    color:#0b0b0b ;
+    font-size: 30px;
+}
+
+footer h1{
+    color: #8f8f8f;
+    font-size: 22px;
+    text-align: center;
+    line-height: 0;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.social-media a{
+    padding: 0 10px;
+}
+.social-media a:hover{
+     transform: scale(1.4);
+}
+.social-media :active{
+    transform: scale(1.03);
+}
+.copyright{
+    background-color: #403e3e;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    margin: 50px 0 0 0;
+}
+.copyright p{
+    padding: 7px;
+    font-size: 12px;
+}
